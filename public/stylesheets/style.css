@@ -1,0 +1,58 @@
+.button {
+    background-color: #97C4B8;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+.p1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-style: italic;
+}
+.profileImage{
+    text-align: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.name{
+    font-family: cursive;
+    color: #205375;
+}
+.content{
+    font-family: "Times New Roman", "cursive";
+    color: #1D5C63;
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.services{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.projectPic{
+    text-align: center;
+    width: 600px;
+    height: 350px;
+}
