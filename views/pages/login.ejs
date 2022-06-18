@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('../partials/head'); %>
+    </head>
+    <body class="container">
+
+        <header>
+            <%- include('../partials/header'); %>
+        </header>
+        <!-- Welcome Page -->
+        <main>
+            <div class="jumbotron" style="background-color: #DAE5D0; text-align: center;">
+                   <form action="login/businessContactsList" style="margin-left : 250px; width: 500px;" method="POST">
+                        <div class="form-outline mb-4">
+                            <input type="email" id="email" class="form-control" placeholder="Enter email" name='email'/>   
+                        </div>
+                        <div class="form-outline mb-4">
+                            <input type="password" id="password" class="form-control" placeholder="Enter password" name='password'/>  
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+                   </form>
+            </div>
+        </main>
+
+        <footer>
+            <%- include('../partials/footer'); %>
+        </footer>
+
+    </body>
+</html>

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/c9b11449-1b36-4d08-bd7d-bb1ee5fb9e90/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/jayPortfolio",
+    "appService.deploySubpath": "."
+}
